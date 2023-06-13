@@ -38,15 +38,10 @@
                 include './user/signup.php';
                 break;
 
-            case 'beasiswa':
-                include './user/beasiswa.php';
+            case 'contact':
+                include './user/contact.php';
                 break;
-            case 'lomba':
-                include './user/lomba.php';
-                break;
-            case 'pertukaranpelajar':
-                include './user/pertukaranpelajar.php';
-                break;
+
             case 'logout':
                 session_start();
                 session_destroy();

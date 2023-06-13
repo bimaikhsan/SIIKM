@@ -17,6 +17,7 @@
 <div class="navbar">
 	<ul>
 		<li style="float:left"><a href="./index.php">SISTEM INFORMASI MAHASISWA</a></li>
+		<li style="float:right"><a style="float:right" href="./index.php?page=contact">Contact </a></li>
 		<li style="float:right"><a style="float:right" class="active" href="./index.php?page=account">Account </a></li>
 		<li style="float:right">
 		<div class="dropdown">
