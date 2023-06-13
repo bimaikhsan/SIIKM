@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    quotes: none;
+    text-decoration: unset;
+    outline: none;
+    border: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /*=============================== ===========================*/
+    
+   /*Catatan : Atur height pada body menjadi 100%*/
+  
+   /*Karena ini hanya contoh agar effect navbar scrollnya bisa terlihat*/
+  
+  /*=============================== ===========================*/
+  
+  body {
+    height: 10000px;
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
+    background-color: #fdfdfd;
+    background-image: url(pict\31fef1cd-cdb6-4831-9ad0-5fd1e52b7b95.jpg);
+  }
+
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+  }
+  .brand span {
+    color: black
+  }
+  
+  .brand img {
+    width: 150px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  
+  @media screen and (min-width: 968px) {
+
+      .dasboard{
+        margin: auto;
+        font-size: medium;
+        width:600px;
+        padding:25px;
+        margin:25px auto;
+        background: #fff;
+        border:1px solid #dedede;
+        -webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+        -moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+        box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+
+      }
+
+      .pict{
+        text-align: center;
+      }
+      .blog {
+        float:left;
+      }
+       
+       
+      .conteudo img {
+        min-width: 650px;
+        margin:0 0 25px -25px;
+        max-width: 650px;
+      }
+       
+      .conteudo h1 {
+        padding:0;
+        margin:0 0 15px;
+        font-weight: normal;
+        color: #666;
+        font-family: Georgia;
+      }
+  
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #000;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+
+.active {
+  background-color: #04AA6D;
+}
