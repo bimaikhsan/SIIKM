@@ -88,15 +88,15 @@
                     <form method="POST" action="" enctype='multipart/form-data'>
                       <div class="mb-3">
                         <label for="gambar" class="form-label">Gambar</label>
-                        <input class="form-control" name="gambar" type="file" id="formFile" require />
+                        <input class="form-control" name="gambar" type="file" id="formFile" required />
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Keterangan</label>
-                        <textarea class="form-control" name="keterangan" id="ckeditor" rows="3"></textarea>
+                        <textarea class="form-control" name="keterangan" id="ckeditor" rows="3" required></textarea>
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlSelect1" class="form-label">Kategori</label>
-                        <select class="form-select" name="kategori" id="exampleFormControlSelect1" aria-label="Default select example">
+                        <select class="form-select" name="kategori" id="exampleFormControlSelect1" aria-label="Default select example" required>
                         <?php
                             $hasil = $fungsi->tampil('kategori');
                             foreach($hasil as $val){
