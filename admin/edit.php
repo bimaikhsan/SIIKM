@@ -100,7 +100,7 @@
                     <form method="POST" action="" enctype='multipart/form-data'>
                       <div class="mb-3">
                         <label for="gambar" class="form-label">Gambar</label>
-                        <input class="form-control" name="gambar" type="file" id="formFile" />
+                        <input class="form-control" name="gambar" type="file" accept="image/*" id="formFile"/>
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Keterangan</label>
