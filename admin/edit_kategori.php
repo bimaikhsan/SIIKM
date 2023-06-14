@@ -3,6 +3,7 @@
     include '../koneksi.php';
     include '../fungsi.php';
     $db = new Koneksi();
+    error_reporting(0);
     $koneksi =  $db->DBConnect();
     $fungsi = new fungsi($koneksi);
     if($_SESSION['USER']['level'] != 'admin'){
